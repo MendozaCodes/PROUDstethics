@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PROUDsthetics</title>
+    <style>
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 160vh;
+      }
+
+      body {
+        background: white;
+        font-family: Arial, sans-serif;
+        color: #080808;
+        margin: 0;
+        padding: 0;
+        }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: black;
+      }
+      h2 {
+            text-align: center;
+            padding-left: 50%;
+            padding-top: 20px;
+            font-size: 3rem;
+            margin-bottom: 50px;
+            position: relative;
+            top: 0px;
+        }
+      #logo {
+        height: 50px;
+        width: 50px;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav li {
+        margin-left: 20px;
+      }
+
+     
+      .product-description {
+        width: 40%;
+        height: 100%;
+        padding: 30px;
+        font-size: 18px;
+        text-align: justify;
+      }
+
+      .download-button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+
+      .download-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        background-color: green;
+        color: white;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        position: absolute;
+        left: 43%;
+      }
+
+      .download-button:hover {
+        background-color: darkgreen;
+      }
+      .my-image {
+        margin-top: 20vw; /* Adjust this value as needed */
+      }
+
+      
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div style="background-color: aqua;">
+        <img id="logo" src="Logo.png" alt="Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="BUS-Homepage.html">Home</a></li>
+          <li><a href="BUS-Products.html">Products</a></li>
+          <li><a href="BUS-Investors.html">Investors</a></li>
+          <li><a href="BUS-Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="product-wrapper">
+        <div class="product-description">
+          <h2>Infographic</h2>
+          <img src="Infographic.png" alt="Infographic" width="500" height="700" title="My Image" class=".my-image">
+          <h2>Presentation</h2>
+          <img src="presentation.png" alt="Power Point Deck" width="500" height="300" title="Power Point Deck" class=".my-image">
+
+          <div class="download-button-container">
+            <a
+              href="PROUDsthetic.pptx"
+              download="PROUDsthetic.pptx"
+              ><div class="download-button">Download PPT</div></a>
+          </div>
+        </div>
+        <div class="product-image"></div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PROUDsthetics</title>
+    <style>
+        body {
+            background: white;
+            font-family: Arial, sans-serif;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: black;
+        }
+        
+        #logo {
+        height: 50px;
+        width: 50px;
+        }
+        
+        nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+        
+        nav li {
+        margin-left: 20px;
+        }
+        h1 {
+            text-align: center;
+            padding-top: 50px;
+            font-size: 3rem;
+            margin-bottom: 50px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+            padding: 50px;
+        }
+        .product {
+            background-color: rgba(101, 100, 100, 0.2);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(48, 172, 254, 0.716);
+            margin: 20px;
+            width: 300px;
+        }
+        .product img {
+            display: block;
+            margin: auto;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            padding: 20px;
+        }
+        .product h2 {
+            font-size: 1.5rem;
+            text-align: center;
+            margin: 30px 0 10px 0;
+        }
+        .product p {
+            font-size: 1.2rem;
+            text-align: center;
+            margin: 10px 0;
+        }
+        .price {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px 0;
+        }
+        .add-to-cart {
+            display: block;
+            margin: auto;
+            padding: 10px 20px;
+            background-color: #78e0f2;
+            color: #474af6;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: all 0.3s ease-in-out;
+        }
+        .add-to-cart:hover {
+            background-color: #0077be;
+            color: #fff;
+            transform: scale(1.1);
+        }
+    </style> 
+</head>
+<body>
+    <header>
+        <div>
+          <img id="logo" src="Logo.png" alt="Logo">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="BUS-Homepage.html">Home</a></li>
+            <li><a href="BUS-Infographic.html">Infographic</a></li>
+            <li><a href="BUS-Investors.html">Investors</a></li>
+            <li><a href="BUS-Contact.html">Contact</a></li>
+             
+          </ul>
+        </nav>
+      </header>
+    <h1>Prosthetic Products</h1>
+    <div class="container">
+        <div class="product">
+            <img src="https://via.placeholder.com/200x200.png/FFFFFF/000000?text=Product+1" alt="Product 1">
+            <h2>Product 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="price">Contact for availablility</div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200x200.png/FFFFFF/000000?text=Product+2" alt="Product 2">
+            <h2>Product 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="price">Contact for availablility</div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200x200.png/FFFFFF/000000?text=Product+3" alt="Product 3">
+            <h2>Product 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="price">Contact for availablility</div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>
